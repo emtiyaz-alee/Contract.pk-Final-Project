@@ -1,0 +1,66 @@
+#overlay{
+    background-image: url('img-one.webp');
+    background-attachment: fixed;
+    background-position: center;
+        /* Center the image */
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-size: cover;
+    
+}
+.brand-logo{
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    color: #e7fdc4;
+    font-weight: lighter;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header-para{
+    color: aliceblue;
+    font-weight: lighter;
+
+}
+body {
+    background: #f1f3f3;
+    font-family: montserrat;
+}
+
+.header2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header2 span {
+    color: deepskyblue;
+}
+.header2{
+
+    color: black;
+}
+
+.single-service {
+    padding: 25px;
+    transition: all .5s ease;
+}
+
+.single-service i {
+    font-size: 60px;
+}
+
+.single-service h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.single-service:hover {
+    background: radial-gradient(circle, #00ccff, #0190f9);
+    color: #fff;
+}
+
+
+
